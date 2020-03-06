@@ -1,0 +1,33 @@
+[{
+    "Label": "UserName:",
+    "Type": "text",
+    "tag": "input"
+  },
+  {
+    "Label": "Password:",
+    "Type": "password",
+    "tag": "input"
+  },
+  {
+    "Label": "Address:",
+    "tag": "textarea"
+  },
+  {
+    "Label": "Qualification:",
+    "Value": {
+      "Value1":"BE",
+      "Value2":"BCOM",
+      "Value3":"ME"
+    },
+    "tag": "select"
+  },
+  {
+    "Label": "I Agree:",
+    "Type": "checkbox",
+    "tag": "input"
+  },
+  {
+    "Label": "SIGN-UP",
+    "Type": "button",
+    "tag": "button"
+  }]
