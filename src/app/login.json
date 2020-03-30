@@ -9,7 +9,7 @@
     "tag": "input"
   },
   {
-    "Label": "Login",
+    "Text": "Login",
     "Type": "button",
     "tag": "button"
   }]

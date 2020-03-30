@@ -3,4 +3,5 @@ export class signupModel{
     password: string;
     address: string;
     qualification: string;
+    isTermsAccepted:boolean;
 }

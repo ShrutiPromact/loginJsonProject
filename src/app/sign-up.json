@@ -1,12 +1,14 @@
 [{
     "Label": "UserName:",
     "Type": "text",
-    "tag": "input"
+    "tag": "input",
+    "error": "Enter username"
   },
   {
     "Label": "Password:",
     "Type": "password",
-    "tag": "input"
+    "tag": "input",
+    "error": "Enter 6 digit password"
   },
   {
     "Label": "Address:",
@@ -14,11 +16,11 @@
   },
   {
     "Label": "Qualification:",
-    "Value": {
-      "Value1":"BE",
-      "Value2":"BCOM",
-      "Value3":"ME"
-    },
+    "Value": [
+      "BE",
+      "BCOM",
+      "ME"
+    ],
     "tag": "select"
   },
   {
@@ -27,7 +29,7 @@
     "tag": "input"
   },
   {
-    "Label": "SIGN-UP",
+    "Text": "SIGN-UP",
     "Type": "button",
     "tag": "button"
   }]
