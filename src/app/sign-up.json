@@ -2,13 +2,13 @@
     "Label": "UserName:",
     "Type": "text",
     "tag": "input",
-    "error": "Enter username"
+    "errorUsername": "Enter username"
   },
   {
     "Label": "Password:",
     "Type": "password",
     "tag": "input",
-    "error": "Enter 6 digit password"
+    "errorPassword": "Enter minimum 6 digit password"
   },
   {
     "Label": "Address:",
@@ -26,7 +26,8 @@
   {
     "Label": "I Agree:",
     "Type": "checkbox",
-    "tag": "input"
+    "tag": "input",
+    "errorTermAccepted": "You must accept our Terms & Conditions."
   },
   {
     "Text": "SIGN-UP",

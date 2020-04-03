@@ -1,12 +1,14 @@
 [{
     "Label": "UserName:",
     "Type": "text",
-    "tag": "input"
+    "tag": "input",
+    "errorUsername": "Enter username"
   },
   {
     "Label": "Password:",
     "Type": "password",
-    "tag": "input"
+    "tag": "input",
+    "errorPassword": "Enter minimum 6 digit password"
   },
   {
     "Text": "Login",

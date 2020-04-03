@@ -1,10 +1,11 @@
 <div *ngFor="let i of data">
     <label>{{i.Label}}</label>
-    <input *ngIf="i.tag === 'input'" type ={{i.Type}}  (change)="setInputValue($event)">
-    <div *ngIf="isError">{{i.error}}</div>
-    
-    <textarea *ngIf="i.tag === 'textarea'" rows="3" cols="33" [(ngModel)]="studentDetail.address" name="address"></textarea>
-    <select *ngIf="i.tag === 'select'" [(ngModel)]="studentDetail.qualification">
+    <input *ngIf="i.tag === 'input'" type ={{i.Type}}  (input)="setInputValue($event)" class="ml10">
+    <div *ngIf="isErrorUsername" class="error-message">{{i.errorUsername}}</div>
+    <div *ngIf="isErrorPassword" class="error-message">{{i.errorPassword}}</div>
+    <div *ngIf="isErrorTermsAccepted" class="error-message">{{i.errorTermAccepted}}</div>
+    <textarea *ngIf="i.tag === 'textarea'" rows="3" cols="33" [(ngModel)]="studentDetail.address" name="address" class="ml10"></textarea>
+    <select *ngIf="i.tag === 'select'" [(ngModel)]="studentDetail.qualification" class="ml10">
         <option *ngFor="let j of i.Value">{{j}}</option>
     </select>
     <button *ngIf="i.tag === 'button'" type="{{i.type}}" (click) ="onSubmit()">{{i.Text}}</button> 
